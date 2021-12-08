@@ -17,11 +17,11 @@ export default class Command extends BaseCommand {
         })
     }
 
-     run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
-           const n = [
-           'https://i.pinimg.com/564x/80/c1/99/80c1992c17dc44e8731a6552f81e7c31.jpg'
+    run = async (M: ISimplifiedMessage, parsedArgs: IParsedArgs): Promise<void> => {
+            const n = [
+            './assets/videos/tyler.mp4'
         ]
-        let chitoge = n[Math.floor(Math.random() * n.length)]
+        let tyler = n[Math.floor(Math.random() * n.length)]
         if (!parsedArgs.joined) {
             const commands = this.handler.commands.keys()
             const categories: { [key: string]: ICommand[] } = {}
@@ -35,18 +35,32 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `👋🏻 (❤ω❤) Konichiwa! *${M.sender.username}*\n\n•Support me by subscribing My youtube channel⬇️\nhttps://youtube.com/channel/UCIA_gt6ns4hu6k-WQOPRoNQ\n\n━━❰･Notes📮Side･❱━━\n*Read the rules*\n\nMy name is Cara\n\nMy prefix is !\n\n1 | *Don't Call* Bots to avoid Blocking.\n\n2 | *Don't Spam* in Groups&Pm to avoid Blocking\n\n`
+            let text = `
+卐 𝕋𝕙𝕖 𝕥𝕙𝕚𝕟𝕘𝕤 𝕥𝕙𝕒𝕥 𝕪𝕠𝕦 𝕠𝕨𝕟 𝕖𝕟𝕕 𝕦𝕡 𝕠𝕨𝕟𝕚𝕟𝕘 𝕪𝕠𝕦 –𝕓𝕝𝕒𝕫𝕖 
+   𝕁𝕠𝕚𝕟 𝕞𝕖 𝕚𝕟 𝕡𝕣𝕠𝕛𝕖𝕔𝕥 𝕞𝕒𝕪𝕙𝕖𝕞 𝕚.𝕖 𝕕𝕖𝕤𝕥𝕣𝕦𝕔𝕥𝕚𝕠𝕟 𝕠𝕗 𝕥𝕙𝕚𝕤 𝕕𝕖𝕘𝕖𝕟𝕖𝕣𝕒𝕥𝕖 𝕘𝕖𝕟𝕖𝕣𝕒𝕥𝕚𝕠𝕟
+         
+╭─(̅_̅_̅_̅(̅_̅_̅_̅_̅_̅_̅_̅_̅̅_̅()ڪے~ ~
+│☒ User: *${M.sender.username}* 
+│☒ Name: tyler durden
+│☒ Prefix: ?
+│☒ Owner: <?mod>
+╰────────────┈☠                  \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
-                text += `━━❰•Bot ${this.emojis[keys.indexOf(key)]} ${this.client.util.capitalize(key)}•❱━━\n• \`\`\`${categories[
+                text += `✙${this.emojis[keys.indexOf(key)]} ${this.client.util.capitalize(key)}✙\n• \`\`\`${categories[
                     key
                 ]
                     .map((command) => command.config?.command)
-                     .join(', ')}\`\`\`\n\n`
-            return void this.client.sendMessage(M.from, { url: chitoge }, MessageType.image, {
+                    .join(', ')}\`\`\`\n\n`
+            return void this.client.sendMessage(M.from, { url: tyler }, MessageType.video, {quoted:M.WAMessage,
+            mimetype: Mimetype.gif,
+            caption: `${text}
+┌────────────┈火
+│  ✘ 𝕋𝕪𝕝𝕖𝕣-durden © by blaze sama
+│   ©️ Synthesized Infinity Botto
+└────────────┈⁂
 
-
-            caption: `${text} 📝 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
+📝 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
             )
         }
         const key = parsedArgs.joined.toLowerCase()
@@ -66,5 +80,5 @@ export default class Command extends BaseCommand {
         )
     }
 
-    emojis = ['📺', '🤖', '⚙️','✡', '💐', '🌸', '🕹', '🎍', '👑', '🎌', '🚏', '🇯🇵']
+    emojis = ['⚙️', '📚', '🎮', '♞', '🏮', '🎧', '🏆', '⚠', '🧰', '⛩️']
 }
