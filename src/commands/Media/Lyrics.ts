@@ -26,7 +26,7 @@ export default class Command extends BaseCommand {
         const search = await Client.songs.search(chitoge)
         if(search.error) return void M.reply(`Couldn't find any matching song results.`)
         const lyrics = await search[0].lyrics()
-        let text = `🎀 *Title: ${search[0].title}*\n\n`
+        let text = `⚡ *Title: ${search[0].title}*\n\n`
             text += `🌐 *URL: ${search[0].url}*\n`
             M.reply(
 							await request.buffer(search[0].image),
