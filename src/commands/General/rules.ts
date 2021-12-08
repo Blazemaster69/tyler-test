@@ -26,8 +26,7 @@ export default class Command extends BaseCommand {
                     undefined,
                     undefined,
                     `---「⚡ Rules for using the bot are listed below ⚡」---\n\n
-   ⚠️ 𝙳𝙾𝙽'𝚃 𝙰𝚂𝙺 𝙵𝙾𝚁 𝚃𝙷𝙴 𝚂𝙲𝚁𝙸𝙿𝚃 ⚠️
-
+⚠️ 𝙳𝙾𝙽'𝚃 𝙰𝚂𝙺 𝙵𝙾𝚁 𝚃𝙷𝙴 𝚂𝙲𝚁𝙸𝙿𝚃 ⚠️
 ⎆ ᴀꜱᴋ ᴍᴇ ?ꜱᴜᴘ ꜰᴏʀ ᴛʜᴇ ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴏᴜᴘ ʟɪɴᴋ
 ⎆ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ Qᴜᴇʀɪᴇꜱ ᴜꜱᴇ ?ᴍᴏᴅꜱ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀꜱ
 ⎆ ᴅᴏɴ'ᴛ ꜱᴛʀᴜɢɢʟᴇ ᴡʜɪʟᴇ ᴜꜱɪɴɢ ᴄᴏᴍᴍᴀɴᴅꜱ, ᴜꜱᴇ ?ʜᴇʟᴘ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ʟɪꜱᴛ
