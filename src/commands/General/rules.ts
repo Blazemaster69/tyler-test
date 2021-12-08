@@ -26,7 +26,7 @@ export default class Command extends BaseCommand {
                     undefined,
                     undefined,
                     `---「⚡ Rules for using the bot are listed below ⚡」---\n\n
-  ⚡ ⚡  𝙳𝙾𝙽'𝚃 𝙰𝚂𝙺 𝙵𝙾𝚁 𝚃𝙷𝙴 𝚂𝙲𝚁𝙸𝙿𝚃 ⚡ ⚡ 
+   ⚠️ 𝙳𝙾𝙽'𝚃 𝙰𝚂𝙺 𝙵𝙾𝚁 𝚃𝙷𝙴 𝚂𝙲𝚁𝙸𝙿𝚃 ⚠️
 
 ⎆ ᴀꜱᴋ ᴍᴇ ?ꜱᴜᴘ ꜰᴏʀ ᴛʜᴇ ᴏꜰꜰɪᴄɪᴀʟ ɢʀᴏᴜᴘ ʟɪɴᴋ
 ⎆ ɪꜰ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ Qᴜᴇʀɪᴇꜱ ᴜꜱᴇ ?ᴍᴏᴅꜱ ᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴍʏ ᴏᴡɴᴇʀꜱ
@@ -34,9 +34,9 @@ export default class Command extends BaseCommand {
 ⎆ ᴅᴏɴ'ᴛ ꜱᴘᴀᴍ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅꜱ. ɪ'ᴍ ɴᴏᴛ ʀᴇꜱᴘᴏɴᴅɪɴɢ, ɪᴛ ᴍᴇᴀɴꜱ ɪ'ᴍ ᴏꜰꜰʟɪɴᴇ ᴏʀ ᴍʏ ꜱᴇʀᴠᴇʀ'ꜱ ᴅᴏᴡɴ
 ⎆ ᴅᴏɴ'ᴛ ᴍᴇꜱꜱᴀɢᴇ ᴍᴇ ɪɴ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ
 
-🎀 ＮＯＴＥ: REMEMBER TO KEEP RULES IN MIND OTHERWISE YOU'LL BE BANNED IN NO TIME 🚫
+📝 ＮＯＴＥ: REMEMBER TO KEEP RULES IN MIND OTHERWISE YOU'LL BE BANNED IN NO TIME 🚫
 
-⚡ ⚡ project mayhem ⚡ ⚡ `,
+⚡ project mayhem ⚡ `,
                     undefined
                 ).catch((reason: any) =>
             M.reply(`🎀 An error occurred. Please try again later.`))
