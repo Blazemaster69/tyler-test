@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
                     MessageType.video,
                     undefined,
                     undefined,
-                    `💐 *Result: ${chitoge} has been found*\n`,
+                    `⚡  *Result: ${chitoge} has been found*\n`,
                     undefined
                 ).catch((e) => {
                     console.log(`This error occurs when an image is sent via M.reply()\n Child Catch Block : \n${e}`)
