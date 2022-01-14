@@ -37,7 +37,6 @@ export default class Command extends BaseCommand {
             }
             let text = `
   卐 𝕁𝕠𝕚𝕟 𝕞𝕖 𝕚𝕟 𝕡𝕣𝕠𝕛𝕖𝕔𝕥 𝕞𝕒𝕪𝕙𝕖𝕞 –𝕓𝕝𝕒𝕫𝕖 
-         
 ╭─(̅_̅_̅_̅(̅_̅_̅_̅_̅_̅_̅_̅_̅̅_̅()ڪے~ ~
 │☒ User: *${M.sender.username}* 
 │☒ Name: tyler durden
@@ -57,7 +56,7 @@ export default class Command extends BaseCommand {
 ┌────────────┈火
 │  ✘ 𝕋𝕪𝕝𝕖𝕣-durden © by blaze sama
 |     follow 🆔 blazemaster_69 on 
-|     insta youll get a follow back as well 
+|     insta youll get a follow back too 
 |     link : https://www.instagram.com/blazemaster_69/
 └────────────┈⁂
 
