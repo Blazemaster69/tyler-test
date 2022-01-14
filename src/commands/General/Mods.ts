@@ -25,8 +25,8 @@ export default class Command extends BaseCommand {
                 }*\n🍀 *Contact: https://wa.me/+${user?.jid?.split('@')[0]}*\n\n`)
         )
         text += `\n© tyler durden by blaze sama 
-                     follow 🆔 blazemaster_69 on insta youll get a followback as well 
-                     link : https://www.instagram.com/blazemaster_69/`
+        follow 🆔 blazemaster_69 on insta youll get a followback as well 
+        link : https://www.instagram.com/blazemaster_69/`
         return void M.reply(text)
     }
 }
