@@ -42,6 +42,7 @@ export default class Command extends BaseCommand {
 │☒ Name: tyler durden
 │☒ Prefix: ?
 │☒ Owner: <?mod>
+|☒ dev cmd: <?dev>
 ╰────────────┈☠                  \n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
