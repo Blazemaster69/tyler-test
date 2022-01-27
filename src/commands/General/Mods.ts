@@ -26,7 +26,7 @@ export default class Command extends BaseCommand {
         )
         text += `\n© tyler durden by blaze sama 
  follow 🆔 blazesama_69 on insta and dm to add the bot 
- link : https://www.instagram.com/blazemaster_69/`
+ link : https://www.instagram.com/blazesama_69/`
         return void M.reply(text)
     }
 }
