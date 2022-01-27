@@ -56,9 +56,9 @@ export default class Command extends BaseCommand {
             caption: `${text}
 ┌────────────┈火
 │  ✘ 𝕋𝕪𝕝𝕖𝕣-durden © by blaze sama
-|     follow 🆔 blazemaster_69 on 
+|     follow 🆔 blazesama_69 on 
 |     insta and dm to add the bot
-|     link : https://www.instagram.com/blazemaster_69/
+|     link : https://www.instagram.com/blazesama_69
 └────────────┈⁂
 
 📝 *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*` }
