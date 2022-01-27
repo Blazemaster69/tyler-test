@@ -33,8 +33,8 @@ export default class Command extends BaseCommand {
 			return void M.reply(
 				`Give me the number of wallpapers to send, Baka!\n\nExample: *${this.client.config.prefix}wallpaper naruto|5*`
 			);
-		if (amount > 20)
-			return void M.reply(`Do you want me to spam in this group?`);
+		if (amount > 5)
+			return void M.reply(` ⚡ hold on baka  max 5 wallpapers at a time `);
 		const wall = new AnimeWallpaper();
 		const wallpaper = await wall.getAnimeWall2(term).catch(() => null);
 		if (!wallpaper)
