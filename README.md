@@ -42,7 +42,7 @@
 ##  ⚡⚡ this bot was created for the destruction of this degenerate generation
 
 
-### 🟢 WhatsApp Group bot support
+### 🟢 blaze sama wa no.
 
 # **[![blaze sama](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](http://wa.me/917721059975?text=Can%20you%20help%20bro)**
 
