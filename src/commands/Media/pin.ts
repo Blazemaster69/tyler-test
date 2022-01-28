@@ -29,10 +29,10 @@ export default class Command extends BaseCommand {
 		const amount: number = chitoge[1];
 		if (!amount)
 			return void M.reply(
-				`Give me the number , Baka!\n\nExample: *${this.client.config.prefix}pin naruto|5*`
+				`Give me the number , Baka!\n\nExample: *${this.client.config.prefix}pin tomioka|5*`
 			);
-		if (amount > 20)
-			return void M.reply(`Do you want me to spam in this group?`);
+		if (amount > 5)
+			return void M.reply(`baka only 5 or less at a time`);
    
          const { data } = await axios.get(`https://api.ichikaa.xyz/api/pinterest?query=${term}&apikey=8NtSMQPG`)
         if ((data as { error: string }).error) return void (await M.reply('Sorry, couldn\'t find'))
