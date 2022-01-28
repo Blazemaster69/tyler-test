@@ -57,7 +57,7 @@ export default class Command extends BaseCommand {
 ┌────────────┈火
 │  ✘ 𝕋𝕪𝕝𝕖𝕣-durden © by blaze sama
 |     follow 🆔 blazesama_69 on 
-|     insta and dm to add the bot
+|     insta and dm to +917721059975 to add the bot
 |     link : https://www.instagram.com/blazesama_69
 └────────────┈⁂
 
