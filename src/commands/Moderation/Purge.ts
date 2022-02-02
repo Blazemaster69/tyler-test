@@ -19,7 +19,7 @@ export default class Command extends BaseCommand {
             M.groupMetadata?.owner !== M.sender.jid &&
             M.groupMetadata?.owner !== M.sender.jid.replace('s.whatsapp.net', 'c.us')
         )
-            M.reply('Only the group owner can use this command')
+            M.reply('use it once more and kaboom')
         if (!M.groupMetadata?.admins?.includes(this.client.user.jid))
             return void M.reply("I can't remove without being an admin")
         if (!this.purgeSet.has(M.groupMetadata?.id || '')) {
