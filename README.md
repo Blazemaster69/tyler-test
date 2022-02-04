@@ -2,6 +2,7 @@
 <img src="https://i.pinimg.com/originals/85/c0/75/85c075f3c2943e56da9d92ef389b0d2e.gif" width="700"></br></a>
 
 # **Tyler durden : A FORK OF ⚡ chitoge void anime WhatsApp BOTTO**
+github link of chitoge repo = https://github.com/ShineiIchijo/Chitoge  make sure to star the developer 
 
 [![CodeFactor](https://www.codefactor.io/repository/github/prajjwaldatir/kaoi/badge)](https://www.codefactor.io/repository/github/prajjwaldatir/kaoi)
 
@@ -54,3 +55,5 @@ for more information.
 ## follow 🆔 blazesama_69 on insta 👇
 
   link : https://www.instagram.com/blazesama_69
+  
+  chitoge repo link = https://github.com/ShineiIchijo/Chitoge make sure to star the developer
