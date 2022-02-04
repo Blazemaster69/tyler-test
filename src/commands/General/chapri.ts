@@ -11,20 +11,20 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'hi',
-            description: 'Say hi to the bot.',
+            description: 'reveals true chapri.',
             category: 'general',
-            usage: `${client.config.prefix}hi`
+            usage: `chapri`
         })
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
         const n = [
-            './assets/videos/tyler-hi.mp4'
+            './assets/audio/chapri.mp3'
         ]
         let tyler = n[Math.floor(Math.random() * n.length)]
-        return void this.client.sendMessage(M.from, { url: tyler }, MessageType.video, {
-            mimetype: Mimetype.gif,
-            caption: `⚡ hi lets get started ,the first rule of fight club is dont talk about fight club .. \n` }
+        return void this.client.sendMessage(M.from, { url: tyler }, MessageType.audio, {
+            mimetype: Mimetype.mp3,
+            caption: `⚡ huehuehue .. \n` }
         )
     }
 }
