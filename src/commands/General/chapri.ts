@@ -13,7 +13,7 @@ export default class Command extends BaseCommand {
             command: 'chapri',
             description: 'reveals true chapri.',
             category: 'general',
-            usage: `chapri`
+            usage: `${client.config.prefix}chapri`
         })
     }
 
