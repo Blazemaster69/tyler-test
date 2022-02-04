@@ -10,7 +10,7 @@ import { ISimplifiedMessage } from '../../typings'
 export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
-            command: 'hi',
+            command: 'chapri',
             description: 'reveals true chapri.',
             category: 'general',
             usage: `chapri`
