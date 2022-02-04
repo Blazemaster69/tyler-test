@@ -25,7 +25,7 @@ export default class Command extends BaseCommand {
                 }*\n🍀 *Contact: https://wa.me/+${user?.jid?.split('@')[0]}*\n\n`)
         )
         text += `\n© tyler durden by blaze sama
-        FORKED FROM © CHITOGE VOID ANIME BOTTO
+ FORKED FROM © CHITOGE VOID ANIME BOTTO
  follow 🆔 blazesama_69 on insta to add the bot 
  link : https://www.instagram.com/blazesama_69`
         return void M.reply(text)
