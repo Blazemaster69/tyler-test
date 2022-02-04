@@ -14,7 +14,7 @@ export default class Command extends BaseCommand {
             description: 'Download the post/video from ig ',
             category: 'media',
             dm: true,
-            usage: `${client.config.prefix}igdl [link]`
+            usage: `${client.config.prefix}ig [link]`
         })
     }
     // static count = 0
