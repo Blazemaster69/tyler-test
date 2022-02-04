@@ -56,7 +56,8 @@ export default class Command extends BaseCommand {
             caption: `${text}
 ┌────────────┈火
 │  ✘ 𝕋𝕪𝕝𝕖𝕣-durden © by blaze sama
-│  FORKED FROM © CHITOGE VOID ANIME BOTTO
+│  FORKED FROM © CHITOGE VOID 
+│  ANIME BOTTO
 |  follow 🆔 blazesama_69 on 
 |  insta to add the bot
 |  link : https://www.instagram.com/blazesama_69
