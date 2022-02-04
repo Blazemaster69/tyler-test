@@ -1,7 +1,7 @@
 <div align="center">
 <img src="https://i.pinimg.com/originals/85/c0/75/85c075f3c2943e56da9d92ef389b0d2e.gif" width="700"></br></a>
 
-# **Tyler durden : A FORK OF chitoge void anime WhatsApp BOTTO**
+# **Tyler durden : A FORK OF ⚡ chitoge void anime WhatsApp BOTTO**
 
 [![CodeFactor](https://www.codefactor.io/repository/github/prajjwaldatir/kaoi/badge)](https://www.codefactor.io/repository/github/prajjwaldatir/kaoi)
 
