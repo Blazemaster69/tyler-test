@@ -23,7 +23,7 @@ export default class Command extends BaseCommand {
         ]
         let tyler = n[Math.floor(Math.random() * n.length)]
         return void this.client.sendMessage(M.from, { url: tyler }, MessageType.audio, {
-            mimetype: Mimetype.mp3,
+            mimetype: Mimetype.mp4,
             caption: `⚡ huehuehue .. \n` }
         )
     }
