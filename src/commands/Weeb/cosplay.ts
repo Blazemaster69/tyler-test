@@ -11,7 +11,7 @@ export default class Command extends BaseCommand {
     constructor(client: WAClient, handler: MessageHandler) {
         super(client, handler, {
             command: 'cosplay',
-            description: `Will send you random cosplay img.`,
+            description: `Will send you random crossplay img.`,
             aliases: ['cp'],
             category: 'weeb',
             usage: `${client.config.prefix}crossplay`,
@@ -20,12 +20,12 @@ export default class Command extends BaseCommand {
     }
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
-        // fetch result of https://velgrynd.herokuapp.com/api/randomimage/cosplay?apikey=jxhcCGrCtIavLMAe6JY8xrwTX from the API using axios
-        return void M.reply( await request.buffer(`https://velgrynd.herokuapp.com/api/randomimage/cosplay?apikey=jxhcCGrCtIavLMAe6JY8xrwTX`),
+        // fetch result of https://velgrynd.herokuapp.com/api/randomimage/cosplay?apikey=Kuxw2RRu from the API using axios
+        return void M.reply( await request.buffer(`https://hanzz-web.herokuapp.com/api/randomimage/cosplay`),
         MessageType.image,
                     undefined,
                     undefined,
-                    `⚡  Here you go.\n`,
+                    `🌟 Here you go.\n`,
                     undefined
                 ).catch((reason: any) =>
             M.reply(`✖ An error occurred. Please try again later.`))
