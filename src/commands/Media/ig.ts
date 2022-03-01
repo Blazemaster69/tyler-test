@@ -24,10 +24,9 @@ export default class Command extends BaseCommand {
         const chitoge = joined.trim()
         console.log(chitoge)
         const hx = require('hxz-api')
-        if (data.result.error) return void M.reply(`*Sorry, couldn\'t find or some errors occurred*`)
-switch (data.result.medias[0].type) {
+        
   case 'image':
-    M.reply( await request.buffer(data.result.medias[0].url),
+    M.reply
         MessageType.image,
                     undefined,
                     undefined,
@@ -36,7 +35,7 @@ switch (data.result.medias[0].type) {
                 )
     break
   case 'video':
-    M.reply( await request.buffer(data.result.medias[0].url),
+    M.reply
        MessageType.video,
                     undefined,
                     undefined,
