@@ -58,7 +58,7 @@ export default class Command extends BaseCommand {
 │  ✘ 𝕋𝕪𝕝𝕖𝕣-durden © by blaze sama
 │  FORKED FROM © CHITOGE VOID 
 │  ANIME BOTTO
-|  follow 🆔 blazesama_69 
+|  insta 🆔 blazesama_69 
 |  link : https://www.instagram.com/blazesama_69
 └────────────┈⁂
 
