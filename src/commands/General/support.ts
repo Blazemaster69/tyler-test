@@ -18,8 +18,8 @@ export default class Command extends BaseCommand {
 
     run = async (M: ISimplifiedMessage): Promise<void> => {
 
-await this.client.sendMessage( M.sender.jid,`Join our support group to add our bot in your group or you can ask any query regarding the bot 
-*Invite link:* https://chat.whatsapp.com/BpNKPx2m6FpHklshLUv73k`, MessageType.text ) 
+await this.client.sendMessage( M.sender.jid,` support group 
+*Invite link:* https://chat.whatsapp.com/LN4mY3laHz61S1ybxHBeYd`, MessageType.text ) 
 return void M.reply('*Sent you the Group Link in personal message*')
     }
 }
