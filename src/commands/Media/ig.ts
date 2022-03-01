@@ -23,7 +23,7 @@ export default class Command extends BaseCommand {
         if (!joined) return void M.reply('Provide the keywords you wanna search, Baka!')
         const chitoge = joined.trim()
         console.log(chitoge)
-        const { data } = await axios.get(`https://hanzz-web.herokuapp.com/api/igdl?url=${chitoge}`)
+        const hx = require('hxz-api')
         if (data.result.error) return void M.reply(`*Sorry, couldn\'t find or some errors occurred*`)
 switch (data.result.medias[0].type) {
   case 'image':
